@@ -41,7 +41,7 @@
     margin-left: 14px;
   }
 }
-@media (min-width: 375px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .header {
     padding: 20px 15px;
   }
