@@ -168,7 +168,7 @@ body {
 .main__list-items .main__item {
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 316px;
   height: 621px;
   background-color: rgb(255, 255, 255);
 }
