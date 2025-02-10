@@ -8,7 +8,7 @@
   .header__nav {
     display: none;
   }
-  .header__form {
+  .header__actions {
     gap: 15px;
   }
   .header__button {
@@ -52,7 +52,7 @@
   .header__menu {
     display: flex;
   }
-  .header__form {
+  .header__actions {
     display: none;
   }
   .header__nav {
@@ -120,13 +120,13 @@
     font-size: 20px;
     line-height: 30px;
   }
-  .header__form-mobile {
+  .header__actions-mobile {
     display: flex;
     flex-direction: column;
     margin: 0px 10px;
     gap: 6px;
   }
-  .header__form-mobile .header__button-mobile {
+  .header__actions-mobile .header__button-mobile {
     position: relative;
     border: none;
     padding: 21px 66.5px;
@@ -135,7 +135,7 @@
     display: inline-block;
     cursor: pointer;
   }
-  .header__form-mobile .header__button-mobile .header__button-text {
+  .header__actions-mobile .header__button-mobile .header__button-text {
     color: rgb(255, 255, 255);
     font-size: 12px;
     font-weight: 700;
@@ -144,7 +144,7 @@
     display: inline-block;
     transform: skew(20deg);
   }
-  .header__form-mobile .header__button-mobile:hover {
+  .header__actions-mobile .header__button-mobile:hover {
     background-color: rgb(212, 179, 116);
   }
 }

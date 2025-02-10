@@ -13,7 +13,7 @@ $color_white: rgba(255, 255, 255, 1);
         display: none;
     }
 
-    .header__form {
+    .header__actions {
         gap: 15px;
     }
 
@@ -70,7 +70,7 @@ $color_white: rgba(255, 255, 255, 1);
         display: flex;
     }
 
-    .header__form {
+    .header__actions {
         display: none;
     }
 
@@ -159,7 +159,7 @@ $color_white: rgba(255, 255, 255, 1);
         line-height: 30px;
     }
 
-    .header__form-mobile {
+    .header__actions-mobile {
         display: flex;
         flex-direction: column;
         margin: 0px 10px;

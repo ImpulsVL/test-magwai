@@ -36,14 +36,14 @@ body {
   line-height: 21px;
 }
 
-.header__form {
+.header__actions {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 30px;
 }
 
-.header__form-mobile {
+.header__actions-mobile {
   display: none;
 }
 
@@ -120,7 +120,7 @@ body {
   position: relative;
   align-items: flex-end;
 }
-.main__content .main__form {
+.main__content .main__actions {
   width: 100%;
   background-image: linear-gradient(to top, rgb(19, 19, 19), rgba(19, 19, 19, 0));
 }
