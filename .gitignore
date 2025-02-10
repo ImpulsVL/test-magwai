@@ -2,4 +2,4 @@
 
 package-lock.json
 package.json
-./magwai_test/node_modules
+node_modules
