@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magwai_test</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/media-main.css">
+    
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <img class="header__menu" src="./icons/menu.svg" alt="menu">
+        <div class="header__container">
+            <img class="header__logo" src="./images/logo.svg" alt="Logo">
+            <nav class="header__nav">
+                <a class="header__link" href="#">УСЛУГИ</a>
+                <a class="header__link" href="#">АБОНЕМЕНТЫ</a>
+                <a class="header__link" href="#">ПОЧЕМУ МЫ</a>
+                <a class="header__link" href="#">ОБОРУДОВАНИЕ</a>
+                <a class="header__link" href="#">АКЦИИ</a>
+                <a class="header__link" href="#">FAQ</a>
+                <a class="header__link" href="#">КОНТАКТЫ</a>
+            </nav>
+        </div>
+        <div class="header__form">
+            <div class="header__phone">
+                <img class="header-icon__phone" src="./icons/phone.svg" alt="Phone">
+            </div>
+            <button class="header__button">
+                <span class="header__button-text">ОСТАВИТЬ ЗАЯВКУ</span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-container" id="mobile-nav">
+        <nav class="mobile-nav">
+            <a class="mobile-nav__link" href="#">УСЛУГИ</a>
+            <a class="mobile-nav__link" href="#">АБОНЕМЕНТЫ</a>
+            <a class="mobile-nav__link" href="#">ПОЧЕМУ МЫ</a>
+            <a class="mobile-nav__link" href="#">ОБОРУДОВАНИЕ</a>
+            <a class="mobile-nav__link" href="#">АКЦИИ</a>
+            <a class="mobile-nav__link" href="#">FAQ</a>
+            <a class="mobile-nav__link" href="#">КОНТАКТЫ</a>
+        </nav>
+
+        <div class="header__form-mobile">
+            <div class="header__phone">
+                <img class="header-icon__phone" src="./icons/phone.svg" alt="Phone">
+            </div>
+            <button class="header__button-mobile">
+                <span class="header__button-text">ОСТАВИТЬ ЗАЯВКУ</span>
+            </button>
+        </div>
+    </div>
+
+    <main class="main">
+        <section class="main__content">
+            <form class="main__form">
+                <div class="main__info">
+                    <h1 class="main__info-title">ПОЛЕТ ИЛОНА МАСКА<br>И DOGIE COIN</h1>
+                    <p class="main__info-text">В прошлый четверг все офигели от полета DOGIE COIN на марс.</p>
+                    <button class="main__button">
+                        <span class="main__button-text">ОСТАВИТЬ ЗАЯВКУ</span>
+                    </button>
+                </div>
+            </form>
+        </section>
+        <section class="main__cards">
+            <h2 class="main__cards-title">КАРТОЧКИ</h2>
+            <div class="main__list-items" id="cards-container">
+            </div>
+            <div class="main__container">
+                <button class="main__button-cards" id="load-more-button">
+                    <span class="main__button-text">ЗАГРУЗИТЬ ЕЩЕ</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/list-cards.js"></script>
+    <script src="./js/nav-mobile.js"></script>
+
+</body>
+
+</html>
